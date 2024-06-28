@@ -117,6 +117,9 @@ p {
         max-width: 75%;
         font-size: 0.9rem;
     }
+    .footer_text {
+        font-size: 0.9rem;
+    }
 }
 @media screen and (max-width: 500px) {
     .contato {
@@ -125,6 +128,9 @@ p {
     }
     .content{
         max-width: 70%;
+        font-size: 0.8rem;
+    }
+    .footer_text {
         font-size: 0.8rem;
     }
 }
