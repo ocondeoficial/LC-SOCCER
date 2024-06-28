@@ -98,6 +98,15 @@ p {
     margin-top: 5%;
     
 }
+.footer_text {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    line-height: 120px;
+    opacity: 0.8;
+    font-size: 1.2rem;
+}
 
 @media screen and (max-width: 800px) {
     .contato {
@@ -106,6 +115,16 @@ p {
     }
     .content{
         max-width: 75%;
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .contato {
+        width: 3rem;
+        height: 3rem;
+    }
+    .content{
+        max-width: 70%;
         font-size: 0.8rem;
     }
 }
